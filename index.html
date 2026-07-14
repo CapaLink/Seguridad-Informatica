@@ -40,6 +40,16 @@ body{
   background:var(--paper);
   -webkit-font-smoothing:antialiased;
 }
+
+ .logo{
+  position:absolute;
+  top:28px;
+  right:36px;
+  width:130px;
+  filter:brightness(0) invert(1);
+  opacity:.9;
+} 
+  
 h1,h2,h3,.disp{font-family:'Space Grotesk',system-ui,sans-serif;}
 img{max-width:100%;display:block}
 a{color:var(--teal)}
@@ -467,6 +477,7 @@ footer.site-foot p{color:#5f7c8e;font-size:12px;margin:0}
 <section class="hero">
   <div class="radar" aria-hidden="true"></div>
   <div class="hero-inner">
+       <img src="logo.png" alt="Logo LinkSolution" class="logo">
     <span class="eyebrow">
       <svg class="icon" style="width:14px;height:14px" viewBox="0 0 24 24"><path d="M12 2 3 6v6c0 5 4 9 9 10 5-1 9-5 9-10V6l-9-4Z"/></svg>
       Documento interno · Link Solution
